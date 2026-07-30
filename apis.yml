@@ -1,19 +1,50 @@
 aid: lendsquare
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lendsquare.png
 name: Lendsquare
-description: Lendsquare is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Lendsquare was a community-lending / peer-to-peer lending startup surfaced as a portfolio
+  company of 500 Global and added to the API Evangelist network as a stub for enrichment. The company
+  is defunct. As of the 2026-07-19 enrichment pass lendsquare.com no longer hosts a product - the domain
+  is parked on GoDaddy/Afternic nameservers (NS1.AFTERNIC.COM) and every path redirects to a "/lander"
+  for-sale page, so there is no website, developer portal, documentation, or API surface to catalog. The
+  only surviving first-party artifact is the dormant GitHub organization github.com/lendsquare, created
+  2013-07-09 and last updated 2015-04-24, holding two Ruby repositories that are third-party libraries
+  the team consumed rather than APIs it published - "area" (place / area-code / zip conversion) and
+  "dwolla-ruby" (Dwolla's official Ruby API wrapper), the latter indicating Lendsquare moved money via
+  the Dwolla API. This profile is retained as a historical, defunct record; no API artifacts were
+  generated because none exist to capture.
 url: https://raw.githubusercontent.com/api-evangelist/lendsquare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-evidence: lendsquare.com parked for sale via GoDaddy/Afternic (all paths, including nonexistent
+  ones, redirect to /lander); GitHub org dormant since 2015-04-24
+x-status-checked: '2026-07-20'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Lending
+- Peer to Peer Lending
+- Financial Services
+- Fintech
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,10 @@ maintainers:
 common:
 - type: Website
   url: https://lendsquare.com
+- type: GitHubOrganization
+  url: https://github.com/lendsquare
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
