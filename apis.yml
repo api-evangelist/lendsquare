@@ -34,7 +34,7 @@ x-status: defunct
 x-status-evidence: lendsquare.com parked for sale via GoDaddy/Afternic (all paths, including nonexistent
   ones, redirect to /lander); GitHub org dormant since 2015-04-24
 x-status-checked: '2026-07-20'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
