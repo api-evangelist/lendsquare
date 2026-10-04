@@ -53,7 +53,7 @@ tags:
 - Defunct
 - Lending
 - Peer-to-Peer Lending
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 tags_raw:
@@ -64,6 +64,7 @@ tags_raw:
 - Financial Services
 - Fintech
 - Payments
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
